@@ -1,0 +1,20 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "@": "./web"
+        }
+      }
+    ],
+    [
+      "import",
+      {
+        "libraryName": "antd-mobile"
+      }
+    ]
+  ]
+}
